@@ -1,0 +1,31 @@
+.leftSide {
+  height: 100vh;
+  background: linear-gradient(180deg, #E65559 0%, rgba(239, 127, 130, 0) 100%);
+}
+
+.rightSide {
+  position: relative;
+  height: 100vh;
+}
+
+div#multiselectContainerReact span.chip {
+  background-color: #F8EDE9;
+  color: #58423A;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 12px;
+}
+
+div#multiselectContainerReact span.chip i.custom-close {
+  margin-left: 10px;
+  font-style: normal;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .leftSide {
+    display: none;
+  }
+}

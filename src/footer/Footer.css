@@ -1,0 +1,40 @@
+.footerContainer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 100px;
+  margin: 0 calc(var(--bs-gutter-x) * -0.5);
+  border-top: 1px solid #E5E6E9;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footerContainer button.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  height: 50px;
+  border-radius: 34px;
+  padding: 12px 28px;
+}
+
+.footerContainer button.backButton {
+  color: #F18A8D;
+}
+
+.footerContainer button.backButton:hover {
+  background-color: #F18A8D;
+  color: #ffffff;
+}
+
+.footerContainer button.nextButton {
+  background-color: #F18A8D;
+  color: #ffffff;
+}
+
+.footerContainer button.nextButton:hover {
+  color: #F18A8D;
+  background-color: #ffffff;
+  border: 1px solid #F18A8D;
+}
